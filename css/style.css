@@ -1,0 +1,450 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+.baby-hug-container {
+  margin: 0px;
+}
+
+.babyh-main-banner-desktop {
+  display: flex;
+  justify-content: center;
+}
+
+.babyh-main-banner-desktop img,
+.babyh-main-banner-mobile img {
+  width: 100%;
+}
+
+@media (min-width: 801px) {
+  .babyh-main-banner-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .babyh-main-banner-desktop {
+    display: none;
+  }
+
+  .babyh-main-banner-mobile {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.baby-hug-features-container {
+  background-color: #618fd4;
+  height: 584px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.baby-hug-features-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.baby-hug-features-subtitle {
+  font-size: 28px;
+  font-style: italic;
+  font-family: "Zodiak", serif;
+  font-weight: 700;
+  line-height: 38.08px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin: 40px 0px 0px 0px;
+}
+
+.baby-hug-features-text {
+  font-family: "Manrope", serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.78px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #ffffff;
+  margin: 0px;
+}
+
+.baby-hug-berco-4-em-1-container {
+  background-color: #163786;
+}
+
+.baby-hug-berco-4-em-1-text-box h2 {
+  margin: 0px;
+  color: #fddeb2;
+  font-family: "Zodiak", serif;
+  font-size: 53px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 63.6px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  padding-top: 54px;
+}
+
+.baby-hug-berco-4-em-1-text-box p {
+  color: #fff;
+  font-family: "Manrope", serif;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 46.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0px auto;
+  max-width: 1100px;
+  padding: 0 30px;
+}
+
+.baby-hug-berco-4-em-1-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1371px;
+  margin: 64px auto 0px auto;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 93px;
+}
+
+.baby-hug-berco-4-em-1-cards-space {
+  margin-top: 56px;
+}
+
+@media (max-width: 1335px) {
+  .baby-hug-berco-4-em-1-cards img {
+    max-width: 500px;
+  }
+}
+
+.baby-hug-about-container {
+  display: flex;
+  background-color: #618fd4;
+  height: 375px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.baby-hug-about-title {
+  margin: 0px auto;
+  color: #fddeb2;
+  font-family: "Manrope", serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32.78px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+.baby-hug-about-subtitle {
+  margin: 0px auto;
+  font-family: "Zodiak", serif;
+  font-size: 64px;
+  font-style: italic;
+  font-weight: 540;
+  line-height: 76.8px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+}
+
+.baby-hug-about-text {
+  margin: 0px auto;
+  font-family: "Manrope", serif;
+  font-size: 36px;
+  font-weight: 100;
+  line-height: 43.2px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  max-width: 1300px;
+}
+
+.baby-hug-altura-e-encosto-fw,
+.baby-hug-altura-e-encosto-sw {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.baby-hug-altura-e-encosto-fw {
+  padding-top: 60px;
+}
+
+.baby-hug-altura-e-encosto-sw {
+  padding-bottom: 60px;
+}
+
+.baby-hug-altura-e-encosto-fw-text,
+.baby-hug-altura-e-encosto-sw-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.baby-hug-altura-e-encosto-fw-title {
+  font-family: "Manrope", serif;
+  font-size: 53px;
+  font-weight: 400;
+  line-height: 57.71px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fddeb2;
+  margin: 0px;
+  margin-bottom: 19px;
+}
+
+.baby-hug-altura-e-encosto-fw-prgrh {
+  font-family: "Manrope", serif;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 53.27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  margin: 0px;
+}
+
+.baby-hug-altura-e-encosto-sw-title {
+  font-family: "Manrope", serif;
+  font-size: 53px;
+  font-weight: 400;
+  line-height: 57.71px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fddeb2;
+  margin: 0px;
+  margin-bottom: 19px;
+}
+
+.baby-hug-altura-e-encosto-sw-prgrh {
+  font-family: "Manrope", serif;
+  font-size: 39px;
+  font-weight: 400;
+  line-height: 53.27px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: #fff;
+  margin: 0px;
+}
+
+@media (max-width: 1360px) {
+  .baby-hug-altura-e-encosto-fw-img,
+  .baby-hug-altura-e-encosto-sw-img {
+    max-width: 500px;
+  }
+
+  .baby-hug-about-text {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 800px) {
+  .baby-hug-features-card-svg {
+    max-width: 120px;
+  }
+
+  .baby-hug-features-subtitle,
+  .baby-hug-features-text {
+    font-size: 20px;
+    line-height: normal;
+  }
+
+  .baby-hug-altura-e-encosto-fw-title,
+  .baby-hug-altura-e-encosto-sw-title {
+    font-size: 20px;
+    line-height: 21.78px;
+  }
+
+  .baby-hug-altura-e-encosto-fw-prgrh,
+  .baby-hug-altura-e-encosto-sw-prgrh {
+    font-size: 13px;
+    line-height: 17.76px;
+  }
+
+  .baby-hug-altura-e-encosto-fw-img {
+    max-width: 360px;
+  }
+
+  .baby-hug-altura-e-encosto-sw-img {
+    max-width: 360px;
+    margin-top: 80px;
+  }
+
+  .baby-hug-about-container {
+    height: 300px;
+  }
+
+  .baby-hug-about-title {
+    font-size: 13px;
+    line-height: 17.76px;
+  }
+
+  .baby-hug-about-subtitle {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .baby-hug-about-text {
+    font-size: 20px;
+    line-height: normal;
+    max-width: 600px;
+  }
+
+  .baby-hug-features-container {
+    height: 460px;
+  }
+}
+
+@media (max-width: 520px) {
+  .baby-hug-altura-e-encosto-fw-img {
+    transform: rotate(10deg);
+    position: absolute;
+    left: -35px;
+  }
+
+  .baby-hug-altura-e-encosto-sw-img {
+    transform: rotate(350deg);
+    margin-top: 80px;
+    position: absolute;
+    right: -48px;
+  }
+
+  .baby-hug-features-card-svg {
+    max-width: 80px;
+    height: 70px;
+  }
+
+  .baby-hug-features-subtitle,
+  .baby-hug-features-text {
+    font-size: 10px;
+    line-height: 13.6px;
+  }
+
+  .baby-hug-about-subtitle {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .baby-hug-about-text {
+    font-size: 13px;
+    line-height: 15.6px;
+    max-width: 340px;
+  }
+
+  .baby-hug-berco-4-em-1-cards img {
+    max-width: 340px;
+  }
+
+  .baby-hug-berco-4-em-1-cards-space {
+    margin: 0px;
+  }
+
+  .baby-hug-features-container {
+    height: 235px;
+  }
+
+  .baby-hug-berco-4-em-1-text-box h2 {
+    font-size: 28px;
+    line-height: 33.6px;
+  }
+
+  .baby-hug-berco-4-em-1-text-box p {
+    font-size: 18px;
+    line-height: 21.6px;
+    max-width: 381px;
+  }
+
+  .baby-hug-features-subtitle {
+    margin: 0px;
+    margin-top: 17px;
+  }
+
+  .baby-hug-about-container {
+    height: 155px;
+  }
+
+  .baby-hug-altura-e-encosto-fw {
+    justify-content: flex-start;
+    position: relative;
+    overflow: hidden;
+    height: 320px;
+  }
+
+  .baby-hug-altura-e-encosto-sw {
+    justify-content: flex-end;
+    position: relative;
+    overflow: hidden;
+    height: 280px;
+  }
+
+  .baby-hug-altura-e-encosto-fw-title,
+  .baby-hug-altura-e-encosto-sw-title {
+    margin: 0px 0px 5px 0px;
+  }
+
+  .baby-hug-altura-e-encosto-fw-text {
+    position: absolute;
+    right: 0;
+    top: 125px;
+    right: 40px;
+  }
+
+  .baby-hug-altura-e-encosto-sw-text {
+    position: absolute;
+    left: 40px;
+    top: 70px;
+  }
+
+  .baby-hug-altura-e-encosto-fw {
+    padding-top: 120px;
+  }
+
+  .baby-hug-altura-e-encosto-sw {
+    padding-bottom: 150px;
+  }
+}
+
+@media (max-width: 390px) {
+  .baby-hug-altura-e-encosto-fw-img {
+    left: -60px;
+  }
+
+  .baby-hug-altura-e-encosto-sw-img {
+    right: -60px;
+  }
+}
+
+@media (max-width: 360px) {
+  .baby-hug-berco-4-em-1-cards img {
+    max-width: 300px;
+  }
+
+  .baby-hug-altura-e-encosto-fw-text {
+    right: 20px;
+  }
+
+  .baby-hug-altura-e-encosto-sw-text {
+    left: 20px;
+  }
+}
+
+@media (min-width: 1026px) {
+  .baby-hug-altura-e-encosto-fw,
+  .baby-hug-altura-e-encosto-sw {
+    max-width: 1900px;
+    margin: 0 auto;
+  }
+}
